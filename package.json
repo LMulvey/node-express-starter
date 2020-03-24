@@ -1,0 +1,36 @@
+{
+  "name": "safeground-api",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Safeground Backend Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon -r esm src/server.js"
+  },
+  "keywords": [],
+  "author": "Lee Mulvey",
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "^1.0.2",
+    "@mapbox/polyline": "1.1.0",
+    "body-parser": "1.19.0",
+    "dotenv": "8.2.0",
+    "esm": "3.2.25",
+    "express": "4.17.1",
+    "lodash.get": "4.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.2",
+    "@babel/preset-env": "7.7.1",
+    "babel-jest": "24.9.0",
+    "eslint": "6.6.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.5.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-prettier": "3.1.1",
+    "jest": "24.9.0",
+    "nodemon": "1.19.4",
+    "prettier": "1.19.1"
+  }
+}
