@@ -1,8 +1,8 @@
 {
-  "name": "safeground-api",
+  "name": "node-express-starter",
   "private": true,
   "version": "0.0.1",
-  "description": "Safeground Backend Services",
+  "description": "Node Express Starter",
   "main": "index.js",
   "scripts": {
     "test": "jest",

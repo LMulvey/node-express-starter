@@ -18,5 +18,5 @@ app.get("/", rootRoutes);
 app.use("/", handleErrorResponse);
 
 app.listen(PORT, () => {
-  console.log(`🌍 Safeground API listening on ${PORT}`);
+  console.log(`🌍 Node Expres Starter listening on ${PORT}`);
 });
