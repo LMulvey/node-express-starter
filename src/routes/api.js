@@ -1,7 +1,7 @@
 import Express from "express";
 const router = Express.Router();
 
-router.get("/", validateDistance, (req, res) => {
+router.get("/", (req, res) => {
   res.json({ success: true });
 });
 
