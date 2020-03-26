@@ -14,8 +14,8 @@ const app = Express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use("/api", apiRoutes);
-app.get("/", rootRoutes);
-app.use("/", handleErrorResponse);
+app.use("/", rootRoutes);
+app.use(handleErrorResponse);
 
 app.listen(PORT, () => {
   console.log(`🌍 Node Expres Starter listening on ${PORT}`);
